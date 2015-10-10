@@ -1,0 +1,9 @@
+---
+applications:
+- name: railsgirlssb-wufoo-count
+  instances: 1
+  memory: 128M
+  host: railsgirlssb-wufoo-count
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.3.1
+  domain: de.a9sapp.eu
+  command: wufoo-count-app
